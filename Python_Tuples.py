@@ -33,6 +33,6 @@ fruits = ("Apple", "Banana", "Mango")
 
 
 # # # Nested tuples inside list
-# employees = [("E101", "Rohit", "Pune"),("E102", "Sneha", "Mumbai")]
-# for eid, name, city in employees:
-#     print(eid, name, city)
+employees = [("E101", "Rohit", "Pune"),("E102", "Sneha", "Mumbai")]
+for eid, name, city in employees:
+    print(eid, name, city)
