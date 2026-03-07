@@ -1,10 +1,10 @@
 import csv
 
-# # Read entire CSV
-# with open("day21_sales_data.csv") as f:
-#     reader = csv.reader(f)
-#     for row in reader:
-#         print(row)
+# Read entire CSV
+with open("day21_sales_data.csv") as f:
+    reader = csv.reader(f)
+    for row in reader:
+        print(row)
 
 
 # # Read with DictReader
@@ -23,10 +23,10 @@ import csv
 # print("Total Sales:", total)
 
 # Filter by City
-mumbai = []
-with open("day21_sales_data.csv") as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        if row["City"] == "Mumbai":
-            mumbai.append(row)
-print(mumbai)
+# mumbai = []
+# with open("day21_sales_data.csv") as f:
+#     reader = csv.DictReader(f)
+#     for row in reader:
+#         if row["City"] == "Mumbai":
+#             mumbai.append(row)
+# print(mumbai)
