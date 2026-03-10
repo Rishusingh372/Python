@@ -19,20 +19,28 @@
 
 
 #Total Sales Calculator
+# product = input("Product Name: ")
+# quantity = int(input("Enter quantity sold: "))
+# price_per_unit = float(input("Enter price per unit"))
+
+# total_sales = quantity * price_per_unit
+
+
+# print("______________________")
+# print("Product:", product)
+# print("Total Sales Amount =", total_sales)
+
+
+# fnum=int(input("Enter first num:"))
+# snum=int(input("Enter Second num:"))
+
+# sum=fnum+snum
+# print(sum)
+
+
 product = input("Product Name: ")
 quantity = int(input("Enter quantity sold: "))
 price_per_unit = float(input("Enter price per unit"))
 
 total_sales = quantity * price_per_unit
-
-
-print("______________________")
-print("Product:", product)
-print("Total Sales Amount =", total_sales)
-
-
-fnum=int(input("Enter first num:"))
-snum=int(input("Enter Second num:"))
-
-sum=fnum+snum
-print(sum)
+print(total_sales)

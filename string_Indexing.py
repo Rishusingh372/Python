@@ -34,5 +34,12 @@ text = "DataAnalysis"
 # print("Last 5 letters:", text[-5:])     # alysis
 
 #Skip Text "DataAnalysis"
+# print("Skip Text :", text[0:12:3])
+# print("Reverse :", text[::-1])
+
+
+# Revision of String Methods
+
+text = "DataAnalysis"
+text[0:4] 
 print("Skip Text :", text[0:12:3])
-print("Reverse :", text[::-1])

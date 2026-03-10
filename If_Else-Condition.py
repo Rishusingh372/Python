@@ -64,8 +64,16 @@
 
 
 #  Advanced: Missing Data Check
-value = "sdf"
-if value == "":
-    print("Missing Data Found")
+# value = "sdf"
+# if value == "":
+#     print("Missing Data Found")
+# else:
+#     print("Data Available")
+
+age=int(input("Enter your age :"))
+residence=input("do you have licence : ")
+
+if age>=18 and residence.lower()=="yes":
+    print("Eligible to register")
 else:
-    print("Data Available")
+    print("Not Eligible to register")
